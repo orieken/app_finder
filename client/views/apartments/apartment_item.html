@@ -1,0 +1,25 @@
+<template name="apartmentItem">
+    <div class="apartment">
+        <div class="apartment-content">
+            <h3>
+                <a href="{{listingUrl}}">{{name}}</a>
+                <span class="badge">{{score}}</span>
+            </h3>
+            <p>
+                <a href="{{pathFor 'apartmentEdit'}}">Edit</a>
+            </p>
+        </div>
+        <div class="well well-sm">
+           <p>{{description}}</p>
+
+            <ul class="list-group list-inline">
+                {{#each images}}
+                <li class="list-group-item">
+                  <!--<img src="{{imageUrl}}" class="img-thumbnail">-->
+                  <img src="" class="img-thumbnail img-responsive">
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+</template>

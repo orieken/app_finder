@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="apartmentItem template" errors="0" tests="1" failures="0" time="0.001" timestamp="2014-07-29T00:33:25">
+  <testcase classname="apartmentItem template" name="is defined" time="0.001"></testcase>
+</testsuite>
+</testsuites>

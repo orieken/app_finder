@@ -1,0 +1,11 @@
+<template name="apartmentList">
+    <div class="apartments">
+        <ul class="list-group">
+            {{#each apartments}}
+            <li class="list-group-item">
+                {{> apartmentItem}}
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+</template>

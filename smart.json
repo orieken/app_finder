@@ -1,0 +1,10 @@
+{
+  "packages": {
+    "jasmine-unit": {},
+    "velocity-html-reporter": {},
+    "bootstrap-3": {},
+    "bootstrap-flatly": {},
+    "iron-router": {},
+    "spin": {}
+  }
+}
